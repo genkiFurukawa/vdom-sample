@@ -1,0 +1,18 @@
+{
+  "name": "vdom-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "serve",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "genki.furukawa",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^13.0.2",
+    "tsc": "^2.0.4",
+    "typescript": "^4.5.5"
+  }
+}

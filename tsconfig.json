@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "allowJs": true,
+    "target": "es2021",
+    "strict": true, 
+    "paths": {
+      "*": ["./types/*"]
+    }
+  },
+  "include": ["./src/**/*"]
+}
