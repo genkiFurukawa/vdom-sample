@@ -20,8 +20,26 @@ const vDOM: VNode = {
         attributes: {
           id: "input-id",
           type: "text",
+          content: "hoge",
+        },
+      },
+      {
+        tagName: "ol",
+        attributes: {
+          id: "item-header",
+          type: "",
           content: "",
         },
+        children: [
+            {
+                tagName: "li",
+                attributes: { id: "item", content: "要素1", "type": "square" },
+            },
+            {
+                tagName: "li",
+                attributes: { id: "item", content: "要素2", "type": "circle" },
+            },  
+        ]
       },
     ],
   };

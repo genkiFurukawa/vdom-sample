@@ -19,7 +19,7 @@ function diffVNode(oldNode: VNode, newNode: VNode, patchTarget: PatchTaget[]): v
                   value: newNode.children[i].attributes.content,
                 });
               }
-              diffVNode(oldNode.children[i], newNode.children[i], patchTarget);            
+              diffVNode(oldNode.children[i], newNode.children[i], patchTarget);         
         }
     }
     return;
